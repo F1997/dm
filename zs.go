@@ -6,7 +6,6 @@
 package dm
 
 import (
-	"dm/util"
 	"fmt"
 	"math"
 	"strconv"
@@ -14,6 +13,8 @@ import (
 	"time"
 	"unicode"
 	"unicode/utf8"
+
+	"github.com/F1997/dm/util"
 )
 
 type oracleDateFormat struct {

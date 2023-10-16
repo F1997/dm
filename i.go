@@ -5,9 +5,10 @@
 package dm
 
 import (
-	"dm/util"
 	"strconv"
 	"time"
+
+	"github.com/F1997/dm/util"
 )
 
 var DB2G db2g

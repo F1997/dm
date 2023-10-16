@@ -6,10 +6,11 @@
 package dm
 
 import (
-	"dm/util"
 	"math/rand"
 	"strconv"
 	"time"
+
+	"github.com/F1997/dm/util"
 )
 
 var rwMap = make(map[string]*rwCounter)

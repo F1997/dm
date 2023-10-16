@@ -7,12 +7,13 @@ package dm
 
 import (
 	"bufio"
-	"dm/util"
 	"io"
 	"os"
 	"runtime"
 	"strconv"
 	"strings"
+
+	"github.com/F1997/dm/util"
 )
 
 var LogDirDef, _ = os.Getwd()

@@ -5,12 +5,13 @@
 package dm
 
 import (
-	"dm/util"
 	"fmt"
 	"os"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/F1997/dm/util"
 )
 
 const (
