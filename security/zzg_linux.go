@@ -7,17 +7,17 @@ package security
 
 import "plugin"
 
-var (
-	dmCipherEncryptSo           *plugin.Plugin
-	cipherGetCountProc          plugin.Symbol
-	cipherGetInfoProc           plugin.Symbol
-	cipherEncryptInitProc       plugin.Symbol
-	cipherGetCipherTextSizeProc plugin.Symbol
-	cipherEncryptProc           plugin.Symbol
-	cipherCleanupProc           plugin.Symbol
-	cipherDecryptInitProc       plugin.Symbol
-	cipherDecryptProc           plugin.Symbol
-)
+// var (
+// 	dmCipherEncryptSo           *plugin.Plugin
+// 	cipherGetCountProc          plugin.Symbol
+// 	cipherGetInfoProc           plugin.Symbol
+// 	cipherEncryptInitProc       plugin.Symbol
+// 	cipherGetCipherTextSizeProc plugin.Symbol
+// 	cipherEncryptProc           plugin.Symbol
+// 	cipherCleanupProc           plugin.Symbol
+// 	cipherDecryptInitProc       plugin.Symbol
+// 	cipherDecryptProc           plugin.Symbol
+// )
 
 func initThirdPartCipher(cipherPath string) (err error) {
 	if dmCipherEncryptSo, err = plugin.Open(cipherPath); err != nil {
